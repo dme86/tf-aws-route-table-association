@@ -16,8 +16,8 @@ module "route-table-association" {
 ## Example outputs.tf
 
 ```hcl
-output "private_route_table_association_ids" {
-  value = module.route-table-association.private_route_table_association_ids
+output "route_table_association_ids" {
+  value = module.route-table-association.route_table_association_ids
 }
 ```
 
